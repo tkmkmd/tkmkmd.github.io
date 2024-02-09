@@ -1,0 +1,774 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family:Helvetica Neue, Helvetica, Arial," sans-serif";
+	letter-spacing: 1px;
+	
+}
+
+header{
+	padding: 32px;
+	
+}
+
+body{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+footer{
+	padding: 20px 30px;
+	text-align: center;
+	
+}
+
+.style_logo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 30px;
+	/*width: 348px;*/
+	width: 300px;
+}
+
+.style_nav ul{
+	list-style-type: none;
+	font-size: 18px;
+}
+
+.style_nav ul li a{
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	display: block;
+	padding: 8px;
+}
+
+.style_nav ul li a:hover{
+	text-decoration: none;
+	color:aqua;
+	
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.hero{
+	background-image: url("image/takumakamada.jpeg");
+	background-size:cover;
+	padding: 20px 20px 50px 20px;
+	color: #fff;
+	text-align: center;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+h2{
+	font-size: 25px;
+	font-weight: 200;
+	margin-bottom: 50px;
+}
+
+h3{
+	font-size: 19px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	line-height: 1.3em;
+}
+
+h4{
+	font-size: 14px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+p{
+	font-size: 19px;
+	font-weight: 200;
+	/*margin-bottom: 20px;*/
+	line-height: 1.3em;
+	/*text-align: justify;
+	text-justify: inter-ideograph;*/
+	color:#000;
+}
+
+/* About */
+
+p.about{
+	font-size: 20px;
+	font-weight: 200;
+	/*margin-bottom: 20px;*/
+	line-height: 1.5em;
+	color:#000;
+}
+
+
+
+
+.clicktxt {
+margin-left: 20px;
+color:#ffffff;
+font-size: 11px;
+background-color: #000;
+padding-top:6px;
+padding-bottom: 6px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 5px;
+}
+
+.switchdsp input {
+display: none;
+}
+
+.switchdsp .dsp {
+padding: 30px 10px 0px 10px;
+height: 0;
+overflow: hidden;
+transition: 0.9s;
+opacity: 0;
+
+}
+
+.switchdsp input:checked ~ .dsp {
+padding: 30px 40px 30px 40px;
+height: auto;
+opacity: 1;
+}
+
+.dsp p{
+	font-size: 17px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+
+/*Research*/
+
+p.selected{
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+
+p.title{
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 1.5em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p.paper{
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: 300;
+	padding-bottom:20px;
+
+
+	/*text-align: justify;
+	text-justify: inter-ideograph;*/
+}
+
+p.correction1{
+	font-size: 15px;
+	margin-left:40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+p.correction2{
+	font-size: 15px;
+	margin-left:40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+
+p.competition{
+	font-size: 14px; 
+	font-weight: 200;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+	/*text-align: justify;
+	text-justify: inter-ideograph;*/
+}
+
+p.re{
+	font-size: 17px;
+	font-weight: 200;
+	color:#000;
+}
+
+.paper a{
+	text-decoration: none;
+	color:cornflowerblue;
+}
+
+.competition a{
+	text-decoration: none;
+	color:cornflowerblue;
+}
+
+.title a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.title a:hover{
+	text-decoration: none;
+	color:cornflowerblue;
+}
+
+
+ul a{
+	text-decoration:none;
+	color:cornflowerblue;
+}
+
+ul a:hover{
+	text-decoration:none;
+	color:cornflowerblue;
+}
+
+
+
+/* Research end*/
+
+/* Contact */
+
+table{
+	font-family:Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: #000;
+	font-size:17px;
+	font-weight: 200;
+	line-height:1.8em;
+}
+
+
+table a{
+	text-decoration:none;
+	color:#000;
+}
+
+table a:hover{
+	text-decoration:none;
+	color:cornflowerblue;
+}
+
+p#university{
+	font-size:20px;
+	font-weight: 300;
+	font-family:Helvetica Neue, Helvetica, Arial," sans-serif";
+	line-height: 1.3em;
+	color:#000;
+	margin-top: 40px;
+	margin-bottom:30px;
+	text-align: left;
+}
+
+
+p.contact{
+	font-size: 17px;
+	font-weight: 200;
+	text-align: left;
+	margin-bottom: 25px;
+	
+	
+}
+
+p.contact a{
+	text-decoration: none;
+	color: #000000;
+}
+
+p.contact a:hover{
+	text-decoration: none;
+	color:cornflowerblue;
+}
+
+/* Contact end*/
+
+
+/* Crack */
+ul.detail{
+	font-size: 17px;
+	font-weight: 200;
+	line-height: 1.6em;
+	padding-top:40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	/*text-align: justify;
+	text-justify:inter-ideograph;*/
+	list-style:decimal;
+	color: #000000;
+}
+
+
+/* Crack end*/
+
+/* Earthquake*/
+
+.fig1 img {
+	padding-top:40px;
+	width: 300px;
+	
+	}
+
+/* Earthquake end*/
+
+/* Yakuza */
+
+.fig3 img {
+	padding-top:40px;
+	margin-bottom: 40px;
+	width: 300px;
+	
+	}
+
+	.fig4 img {
+	padding-top:40px;
+	width: 300px;
+	
+	}
+
+/* Yakuza end*/
+
+.button{
+	border: 2px #ffffff solid;
+	padding: 8px 20px;
+	border-radius: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.beige_box{
+	background-color: #b9a88e;
+	color: #ffffff;
+	padding: 50px 50px;
+	text-align: center;
+}
+
+.gray_box{
+	background-color: #2d2d35;
+	color: #ffffff;
+	padding: 40px 40px;
+	text-align: center;
+	/*text-align: left;*/
+}
+
+.silvergray_box{
+	background-color:whitesmoke;
+	color: #ffffff;
+	padding: 30px 30px;
+	/*text-align: center;*/
+	text-align: left;
+}
+
+
+h3 a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h3 a:hover{
+	text-decoration: none;
+	color:aqua;
+}
+
+.footer_text{
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.col{
+	width: 100%;
+	
+}
+
+
+.button {
+	border: 2px #FFFFFF solid;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*
+.info-box-tan {
+	background-color: #b9a88e;
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+}
+
+
+.info-box-dark {
+	background-color: #2D2D35;
+	color: #FFFFFF;
+	padding: 30px 20px 60px;
+	text-align: center;
+}
+*/
+
+
+/*タブレット用*/
+@media (min-width: 768px){	
+	
+	body{
+		max-width: 778px;
+	}
+	
+	.style_nav ul li{
+		display: inline-block;
+	}
+	.style_nav ul{
+		text-align: center;
+	}
+	
+	h1{
+	font-size: 45px;
+	/*margin-bottom: 30px;*/
+	}
+	
+	h3{
+		font-size: 22px;
+		font-weight: 200;
+	}
+	
+	.col-md-half{
+		width: 50%;
+	}
+	
+	.col{
+		float: left;
+		padding: 0px 7px 14px;
+	}
+	
+		
+	.hero{
+	background-image: url("image/takumakamada.jpeg");
+	background-size:cover;
+	padding: 20px 20px 50px 20px;
+	color: #fff;
+	text-align: center;
+}	
+	
+table{
+	font-family:Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: #000;
+	font-size:20px;
+	font-weight: 100;
+	line-height:1.8em;
+	}
+
+	.fig1 img {
+	padding-top:40px;
+	margin-left: 50px;
+	width: 468px;
+	
+	}
+
+	.fig3 img {
+	padding-top:40px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	width: 480px;
+	
+	}
+
+	.fig4 img {
+	padding-top:40px;
+	margin-left: 50px;
+	width: 480px;
+	
+	}
+
+	.fig5 img {
+	padding-top:40px;
+	margin-left: 50px;
+	width: 450px;
+	
+	}
+	
+	p.selected{
+	font-size: 28px;
+	font-weight: 300;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+	
+	p.title{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.7em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+	p.paper{
+	font-size: 18px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+	
+		
+ul.detail{
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 1.6em;
+	padding-top:40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: justify;
+	text-justify:inter-ideograph;
+	list-style:decimal;
+	color: #000000;
+}
+	
+	p.re{
+	font-size: 20px;
+	font-weight: 200;
+	/*margin-bottom: 20px;*/
+	text-align: justify;
+	text-justify:inter-ideograph;
+	color:#000;
+}
+	p.about{
+	text-align: justify;
+	text-justify:inter-ideograph;
+	}
+	
+	
+p#university{
+	font-size:20px;
+	font-weight: 300;
+	font-family:Helvetica Neue, Helvetica, Arial," sans-serif";
+	line-height: 1.3em;
+	color:#000;
+	margin-top: 40px;
+	margin-bottom:30px;
+	text-align: left;
+}
+
+
+p.contact{
+	font-size: 19px;
+	font-weight: 200;
+	text-align: left;
+	margin-bottom: 25px;
+	
+	
+}
+}
+
+
+
+/*デスクトップ用*/
+@media (min-width: 1024px){	
+	
+	body{
+		max-width: 1000px;
+	}
+	.style_logo{
+		float: left;
+	}
+	.style_nav{
+		float: right;
+	}
+	
+	.col-lg-qtr{
+		width: 25%;		
+	}
+	
+	.silvergray_box{
+	background-color:whitesmoke;
+	color: #ffffff;
+	padding: 40px 50px;
+	/*text-align: center;*/
+	text-align: left;
+}
+	
+	h1{
+	font-size: 50px;
+	font-weight: 300;
+	/*margin-bottom: 30px;*/
+	}
+	
+	h3{
+		font-size: 24px;
+		font-weight: 200;
+	}
+	
+	p{
+		font-size: 20px;
+	}
+	
+	table{
+	font-family:Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: #000;
+	font-size:20px;
+	font-weight: 100;
+	line-height:1.8em;
+	}
+	
+	
+	.hero{
+	background-image: url("image/takumakamada.jpeg");
+	background-size:cover;
+	padding: 20px 20px 50px 20px;
+	color: #fff;
+	text-align: center;
+}
+
+	.fig1 img {
+	padding-top:40px;
+	margin-left: 50px;
+	width: 468px;
+	
+	}
+
+	.fig3 img {
+	padding-top:40px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	width: 480px;
+	
+	}
+
+	.fig4 img {
+	padding-top:40px;
+	margin-left: 50px;
+	width: 480px;
+	
+	}
+
+	.fig5 img {
+	padding-top:40px;
+	margin-left:50px;
+	width: 450px;
+	
+	}	
+	
+	p#university{
+	font-size:22px;
+	font-weight: 200;
+	
+}
+	
+	p.selected{
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+
+	p.title{
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 1.7em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+	p.paper{
+	font-size: 18px;
+	line-height: 1.4em;
+	font-weight: 200;
+	margin-bottom: 0px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+
+p.competition{
+	font-size: 14px; 
+	line-height: 1.4em;
+	font-weight: 200;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+	
+ul.detail{
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 1.6em;
+	padding-top:40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: justify;
+	text-justify:inter-ideograph;
+	list-style:decimal;
+	color: #000000;
+}
+	
+p.re{
+	font-size: 20px;
+	font-weight: 200;
+	/*margin-bottom: 20px;*/
+	text-align: justify;
+	text-justify:inter-ideograph;
+	color:#000;
+}
+	
+p.about{
+	text-align: justify;
+	text-justify:inter-ideograph;
+	}
+
+p#university{
+	font-size:22px;
+	font-weight: 300;
+	font-family:Helvetica Neue, Helvetica, Arial," sans-serif";
+	line-height: 1.3em;
+	color:#000;
+	margin-top: 40px;
+	margin-bottom:30px;
+	text-align: left;
+}
+
+
+p.contact{
+	font-size: 18px;
+	font-weight: 200;
+	text-align: left;
+	margin-bottom: 25px;
+	
+	
+}
+
+
+}
