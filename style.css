@@ -768,7 +768,25 @@ p.contact{
 	margin-bottom: 25px;	
 }
 
-
+/* スマホ用 */
+@media (max-width: 767px) {
+  /* Make publication items outside silvergray_box match the width of items inside */
+  main .row .col > p.paper {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: calc(100% - 60px); /* Match silvergray_box padding */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  main .row .col > p.competition {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 
 }
