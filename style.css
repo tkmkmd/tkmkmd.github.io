@@ -767,6 +767,7 @@ p.contact{
 	text-align: left;
 	margin-bottom: 25px;	
 }
+}
 
 /* スマホ用 */
 @media (max-width: 767px) {
@@ -786,7 +787,4 @@ p.contact{
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-
 }
