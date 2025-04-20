@@ -266,6 +266,11 @@ ul a:hover{
     color: #000000 !important;
 }
 
+details {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 
 /* Research end*/
 
