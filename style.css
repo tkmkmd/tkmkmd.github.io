@@ -210,15 +210,14 @@ p.correction2{
 }
 
 
-p.competition{
-	font-size: 14px; 
-	font-weight: 200;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-bottom: 20px;
-	/*text-align: justify;
-	text-justify: inter-ideograph;*/
+p.competition {
+    font-size: 14px; 
+    font-weight: 200;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
 }
+
 
 p.re{
 	font-size: 17px;
@@ -289,9 +288,14 @@ p.abstract {
 
 details summary {
     color: #000000;
-    font-size: 18px; /* optional, to match your paper title font size */
-    font-weight: 300; /* optional, to keep it light like your paper titles */
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px; 
+    cursor: pointer;
 }
+
 
 /* Research end*/
 
