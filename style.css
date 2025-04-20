@@ -261,6 +261,12 @@ ul a:hover{
     color: #000000;
 }
 
+.silvergray_box details summary,
+.silvergray_box details p.abstract {
+    color: #000000 !important;
+}
+
+
 /* Research end*/
 
 /* Contact */
