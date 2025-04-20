@@ -272,11 +272,25 @@ details {
 }
 
 p.paper {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 details {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+p.abstract {
+    text-align: justify;
+}
+
+p.abstract {
+    font-size: 17px;
+}
+
+details summary {
+    color: #000000;
+    font-size: 18px; /* optional, to match your paper title font size */
+    font-weight: 300; /* optional, to keep it light like your paper titles */
 }
 
 /* Research end*/
